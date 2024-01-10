@@ -1,3 +1,10 @@
+# Tabby AI(Coding Assistant)
+- About
+  - Self-hosted AI coding assistant
+
+
+- https://github.com/TabbyML/tabby
+
 # lvim 쓸 때 ```cargo fmt && cargo check``` 활용하자
 
 ```bash
