@@ -13,10 +13,9 @@ tabby serve --device metal --model TabbyML/StarCoder-1B
 ```
 
 - LinuxOS
-  - Run Tabby in 1 Minute
+  - Run Tabby in 1 Minute https://github.com/TabbyML/tabby
     - The easiest way to start a Tabby server is by using the following Docker command:
 ```
-
 docker run -it \
   --gpus all -p 8080:8080 -v $HOME/.tabby:/data \
   tabbyml/tabby \
