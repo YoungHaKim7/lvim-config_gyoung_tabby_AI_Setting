@@ -12,6 +12,17 @@ brew install tabbyml/tabby/tabby
 tabby serve --device metal --model TabbyML/StarCoder-1B
 ```
 
+- 모델 바꿔주기 좋네
+  - https://jonghoonpark.com/2023/11/05/tabby
+```
+docker run -it \
+–gpus all -p 8080:8080 \
+-e TABBY_DISABLE_USAGE_COLLECTION=1 \
+-v $HOME/.tabby:/data \
+tabbyml/tabby \
+serve –model TabbyML/CodeLlama-7B –device cuda
+```
+
 # lvim 쓸 때 ```cargo fmt && cargo check``` 활용하자
 
 ```bash
