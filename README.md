@@ -4,6 +4,13 @@
 
 
 - https://github.com/TabbyML/tabby
+- macos
+```
+brew install tabbyml/tabby/tabby
+
+# Start server with StarCoder-1B
+tabby serve --device metal --model TabbyML/StarCoder-1B
+```
 
 # lvim 쓸 때 ```cargo fmt && cargo check``` 활용하자
 
