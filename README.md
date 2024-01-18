@@ -25,12 +25,16 @@ docker run -it \
 - Stability AI, 코딩용 LLM 모델 Stable Code 3B 공개 | GeekNews
   - https://news.hada.io/topic?id=12919&utm_source=discord&utm_medium=bot&utm_campaign=1480
 - stable-code-3b
+- 모델을 먼저 세팅해주고 해야 된다.
+  - https://github.com/TabbyML/registry-tabby
+    - https://github.com/TabbyML/registry-tabby/blob/main/models.json
 
 ```
-docker run -it \
+docker run -it \          
   --gpus all -p 8080:8080 -v $HOME/.tabby:/data \
   tabbyml/tabby \
-  serve --model TabbyML/StableCode-3B --device cuda
+  serve --model TabbyML/Mistral-7B --device cuda
+
 ```
 
 - 모델 바꿔주기 좋네
