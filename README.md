@@ -22,6 +22,17 @@ docker run -it \
   serve --model TabbyML/StarCoder-1B --device cuda
 ```
 
+- Stability AI, 코딩용 LLM 모델 Stable Code 3B 공개 | GeekNews
+  - https://news.hada.io/topic?id=12919&utm_source=discord&utm_medium=bot&utm_campaign=1480
+- stable-code-3b
+
+```
+docker run -it \
+  --gpus all -p 8080:8080 -v $HOME/.tabby:/data \
+  tabbyml/tabby \
+  serve --model TabbyML/StableCode-3B --device cuda
+```
+
 - 모델 바꿔주기 좋네
   - https://jonghoonpark.com/2023/11/05/tabby
 ```
