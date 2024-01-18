@@ -37,6 +37,16 @@ docker run -it \
 
 ```
 
+- https://tabby.tabbyml.com/docs/faq
+  - 3B짜리
+
+```bash
+docker run -it \
+  --gpus all -p 8080:8080 -v $HOME/.tabby:/data \
+  tabbyml/tabby \
+  serve --model TabbyML/StarCoder-3B --device cuda
+```
+
 - 모델 바꿔주기 좋네
   - https://jonghoonpark.com/2023/11/05/tabby
 ```
