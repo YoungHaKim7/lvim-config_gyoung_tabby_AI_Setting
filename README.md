@@ -1,3 +1,10 @@
+# 외국분이 내 세팅 더 깔끔하게 정리해줌
+
+- https://github.com/pingu1m/config
+
+- https://github.com/pingu1m/config/blob/main/nvim/lua/plugins/extras.lua
+
+
 # Tabby AI(Coding Assistant)
 - About
   - Self-hosted AI coding assistant
